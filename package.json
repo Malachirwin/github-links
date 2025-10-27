@@ -2,13 +2,13 @@
   "name": "github-links",
   "displayName": "Github Links",
   "description": "This extension opens up the github links in your browser",
-  "version": "3.0.0",
-  "publisher": "riteshksriv",
+  "version": "1.0.0",
+  "publisher": "malachiirwin",
   "engines": {
     "vscode": "^1.37.0"
   },
   "repository": {
-    "url": "https://github.com/riteshksriv/github-links"
+    "url": "https://github.com/malachirwin/github-links"
   },
   "categories": [
     "SCM Providers"

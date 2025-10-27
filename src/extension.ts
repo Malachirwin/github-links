@@ -89,7 +89,7 @@ async function getUrl(
 }
 
 function openUrl(url: string) {
-  exec(`start "" "${url}"`, (error) => {
+  exec(`open "${url}"`, (error) => {
     if (error) {
       return vscode.window.showInformationMessage(
         `Could not open link ${error}`

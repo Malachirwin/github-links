@@ -48,7 +48,6 @@ export async function getBaseUrl(folder: string) {
   }
   remoteURL = voca.replace(remoteURL, ":", "/");
   remoteURL = voca.replace(remoteURL, "git@", "https://");
-  remoteURL = voca.substring(remoteURL, 0, remoteURL.length - 4);
   return url.appendSlash(remoteURL);
 }
 
