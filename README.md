@@ -29,3 +29,12 @@ Refactored some code
 ### 1.0.0
 Initial release of Github-links
 
+# Building Locally
+
+```shell
+npm install
+npm install -g @vscode/vsce
+npx vsce package
+code --install-extension ./github-links-X.X.X.vsix
+```
+
